@@ -1,0 +1,88 @@
+{
+  "name": "T8020 National Membership Token",
+  "description": "The T8020 National Membership Token, a limited-edition ERC-1155 token on the Polygon network, that grants exclusive access to the T8020 Community's premier events and governance in various cities. Powered by blockchain and AI-driven verification, it empowers holders to combat misinformation, fostering transparency and truth. Early adopters receive priority event access, exclusive educational content, and enhanced governance influence. Join a visionary community dedicated to trust and connection. Note: As of 4-22-25, the T8020 token is unavailable in CA, NY, TX, NJ, or WA; availability is subject to change based on T8020 token holders governance decisions.",
+  "metadataVersion": "1.0.0",
+  "metadataIntegrity": {
+    "hash": "c8e4f2a7b9d1e0c3f5a8b2d6e9f0c1a4b7d3e8f2a9c5b0d1e6f4a3c7b8d9e2f",
+    "note": "Metadata uploaded to IPFS at CID bafkreid5k3x2dp5tnjc27sqazccguzyvk3eftpfkewp2fewhkwfosghg2a and hash verified"
+  },
+  "background_color": "0000FF",
+  "symbol": "T8020",
+  "license": {
+    "type": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "external_url": "https://t8020community.com",
+  "frontendImplementation": {
+    "component": "ClaimButton",
+    "purpose": "Facilitates claiming the T8020 Membership Token (tokenId: 0) from the Edition Drop contract on Polygon using the React SDK.",
+    "url": "https://www.t8020community.com/t8020-token",
+    "instructions": "Link your approved crypto wallet to the Polygon network and use the Claim Button on a T8020 Community-approved site to complete KYC verification, securing your exclusive token effortlessly."
+  },
+  "image": "ipfs://bafybeigbo6kspwg7z4zqouwzmdi7vxufdjsefmsw4qefe36i6r5wkffyge",
+  "creator": {
+    "name": "T8020 Community",
+    "website": "https://t8020community.com",
+    "token_address": "0xc4AF04818300E5e570f7Eb12BA653F78ac4C47A4"
+  },
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Level",
+      "value": "10"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Polygon"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC-1155"
+    },
+    {
+      "trait_type": "Membership Type",
+      "value": "National Token Holder"
+    },
+    {
+      "trait_type": "Governance Rights",
+      "value": "Voting"
+    },
+    {
+      "trait_type": "Event Access",
+      "value": "Exclusive"
+    },
+    {
+      "trait_type": "Issue Date",
+      "value": "2025-04-23"
+    }
+  ],
+  "royalties": {
+    "recipient": "0x85395CbAC236Ca8565E04dB34b24c41d1d0A262a",
+    "percentage": 5
+  },
+  "tokenId": 0,
+  "supply": {
+    "type": "Limited",
+    "maxSupply": 500000000
+  },
+  "properties": {
+    "token_type": "semi-fungible",
+    "mint_price": "5 POL"
+  },
+  "privacy_policy": {
+    "cid": "bafkreifwrlph3zz3ztvyoatywqzetabum33orz43hhmg37pe3k6ozd6mie",
+    "url": "https://ipfs.io/ipfs/bafkreifwrlph3zz3ztvyoatywqzetabum33orz43hhmg37pe3k6ozd6mie"
+  },
+  "collection": {
+    "name": "T8020 Membership Tokens",
+    "contractAddress": "0xc4AF04818300E5e570f7Eb12BA653F78ac4C47A4",
+    "family": "T8020 Community"
+  }
+}
