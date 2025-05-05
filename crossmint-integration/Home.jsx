@@ -16,7 +16,7 @@ export default function Home() {
 
     // Ensure quantity is between 1 and 10 (adjust max as needed)
     const handleQuantityChange = (e) => {
-        const value = Math.max(1, Math.min(10, parseInt(e.target.value) || 1));
+        const value = Math.max(1, Math.min(10000, parseInt(e.target.value) || 1));
         setQuantity(value);
     };
 
@@ -31,7 +31,7 @@ export default function Home() {
 
     return (
         <div style={{ textAlign: 'center', padding: '20px' }}>
-            <h2>Select Number of Membership Tokenst</h2>
+            <h2>Select Number of Membership Tokens</h2>
             <input
                 type="number"
                 value={quantity}
